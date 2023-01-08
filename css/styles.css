@@ -39,7 +39,7 @@ body {
 
 /* Nagłówek makiety */
 
-.header {
+.header-line {
   background-color: var(--white-color);
   border-bottom: 1px solid var(--header-line);
   padding: 24.54px 0 23.53px;
@@ -51,7 +51,7 @@ body {
   align-items: center;
 }
 
-.header-box-menu {
+.header-menu {
   display: flex;
   align-items: center;
 }
@@ -70,7 +70,7 @@ body {
   color: var(--highlight-color);
 }
 
-.contact {
+.header-contact {
   display: flex;
   gap: 30px;
   fill: currentColor;
