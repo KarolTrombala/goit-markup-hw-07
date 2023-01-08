@@ -21,36 +21,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Nagłówek makiety-->
-    <header class="header-line">
-      <div class="container header-box">
-        <div class="header-menu">
+    <!--Nagłówek makiety - HEADER BLOCK-->
+    <header class="header">
+      <div class="container header__box">
+        <div class="header__navigation">
+          <!--LOGO BLOCK-->
           <a class="logo" href="index.html"
-            ><span class="logo--highlight">Web</span>Studio</a
-          >
-          <!--Menu makiety-->
+            ><span class="logo--highlight">Web</span>Studio</a>
+          <!--END LOGO BLOCK-->
+        <!--Menu makiety-->
           <nav>
-            <ul class="header-nav">
+            <ul class="header__menu">
               <li>
-                <a class="header-nav__link header-nav__link--active" href="#">Agencja</a>
+                <a class="header__menu-link header__menu-link--active" href="#">Agencja</a>
               </li>
               <li>
-                <a class="header-nav__link" href="portfolio.html"
+                <a class="header__menu-link" href="portfolio.html"
                   >Portfolio</a
                 >
               </li>
-              <li><a class="header-nav__link" href="#">Kontakt</a></li>
+              <li><a class="header__menu-link" href="#">Kontakt</a></li>
             </ul>
           </nav>
         </div>
-        <div class="header-contact">
-          <a class="header-address" href="mailto:info@devstudio.com">
+        <div class="header__menu-contact">
+          <a class="header__menu-contact-item" href="mailto:info@devstudio.com">
             <svg width="16" height="12">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a class="header-phone" href="tel:+48111111111">
+          <a class="header__menu-contact-item header-phone" href="tel:+48111111111">
             <svg width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
@@ -59,6 +60,7 @@
         </div>
       </div>
     </header>
+    <!--END HEADER BLOCK-->
     <main>
       <!--Header makiety-->
       <section class="hero section">
