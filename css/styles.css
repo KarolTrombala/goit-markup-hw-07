@@ -31,13 +31,13 @@ body {
   color: var(--main-color);
 }
 
-/* Nagłówek makiety */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* Nagłówek makiety */
 
 .header-line {
   background-color: var(--white-color);
