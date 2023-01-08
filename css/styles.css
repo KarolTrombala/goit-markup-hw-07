@@ -534,13 +534,13 @@ body {
 
 /* Nasi klienci */
 
-.customers-list {
+.customers__list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
-.customers-box {
+.customers__list-link {
   display: block;
   border: 1px solid var(--customers-icon);
   border-radius: 4px;
@@ -552,7 +552,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-box:hover {
+.customers__list-link:hover {
   fill: var(--highlight-color);
   border-color: var(--highlight-color);
 }
