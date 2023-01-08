@@ -62,15 +62,18 @@
     </header>
     <!--END HEADER BLOCK-->
     <main>
-      <!--Header makiety-->
+      <!--Header makiety - HERO BLOCK-->
       <section class="hero section">
-        <div class="container hero-items">
-          <h1 class="hero-title">Efektywne rozwiązania dla waszego biznesu</h1>
-          <button type="button" class="hero-button" data-modal-open>
+        <div class="container hero__content">
+          <h1 class="hero__title">Efektywne rozwiązania dla waszego biznesu</h1>
+           <!--BUTTON BLOCK-->
+          <button type="button" class="button button--hero" data-modal-open>
             Zamów usługę
           </button>
+          <!--END BUTTON BLOCK-->
         </div>
       </section>
+      <!--END HERO BLOCK-->
       <!--Nasze atuty-->
       <section class="trumps section">
         <div class="container">
@@ -395,19 +398,20 @@
         </div>
       </section>
     </main>
-    <!--Footer-->
-    <footer class="footer-color">
-      <div class="container nav-footer">
-        <div class="footer-contact-box">
+    <!--Footer - FOOTER BLOCK-->
+    <footer class="footer">
+      <div class="container footer__box">
+        <div>
+          <!--LOGO BLOCK-->
           <a class="logo logo--color" href="index.html">
-            <span class="logo--highlight">Web</span>Studio</a
-          >
-          <address class="footer-address">
+            <span class="logo--highlight">Web</span>Studio</a>
+          <!--END LOGO BLOCK-->
+          <address class="footer__address">
             <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-            <a class="footer-address-link" href="mailto:info@devstudio.com">
+            <a class="footer__address-link" href="mailto:info@devstudio.com">
               info@devstudio.com</a
             >
-            <a class="footer-phone-link" href="tel:+48111111111">
+            <a class="footer__address-link" href="tel:+48111111111">
               +48 111 111 111</a
             >
           </address>
@@ -457,7 +461,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="sign-up-button">
+            <button type="submit" class="button button--sign-up">
               Zapisz się
               <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
@@ -551,7 +555,7 @@
             </label>
           </div>
           <div>
-            <button type="submit" class="modal-form-button">Wyślij</button>
+            <button type="submit" class="button button--modal">Wyślij</button>
           </div>
         </form>
       </div>
