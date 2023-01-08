@@ -425,9 +425,7 @@ body {
 
 /* Czym się zajmujemy, nagłówek z Nasz zespół i nagłówek Nasi klienci */
 
-.works-title,
-.team-title,
-.customers-title {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -437,13 +435,13 @@ body {
 
   margin-bottom: 50px;
 }
-.works-item {
+.works__item {
   position: relative;
 }
-.works-item > img {
+.works__item > img {
   display: block;
 }
-.works-descrip {
+.works__description {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
