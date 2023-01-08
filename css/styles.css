@@ -397,13 +397,13 @@ body {
   padding-bottom: 0;
 }
 
-.trumps-icon-box {
+.trumps__box {
   padding: 25px 100px;
   background-color: var(--team-color);
   border-radius: 4px;
 }
 
-.trumps-title {
+.trumps__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -415,7 +415,7 @@ body {
   margin-bottom: 10px;
 }
 
-.trumps-item {
+.trumps__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
