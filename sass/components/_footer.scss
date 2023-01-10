@@ -1,46 +1,46 @@
 // Footer
 .footer {
-    background-color: $backgroundColor;
+  background-color: $backgroundColor;
 
-&__box {
-        display: flex;
-        gap: 70px;
-        padding: 60px 15px;
-      }
+  &__box {
+    display: flex;
+    gap: 70px;
+    padding: 60px 15px;
+  }
 
-&__address {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: $whiteColor;
-      
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        gap: 9px;
-      }
-      
-&__address-link { 
-        color: $footerLinkColor;
-        text-decoration: none;
-      
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      }
+  &__address {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $whiteColor;
 
-&_address-link--underline  {
-        text-decoration: underline;
-      }
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 9px;
+  }
 
-&__address-link:hover,
-&__address-link:focus {
-  color: $highlightColor;
-}
+  &__address-link {
+    color: $footerLinkColor;
+    text-decoration: none;
 
-&__description {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &_address-link--underline {
+    text-decoration: underline;
+  }
+
+  &__address-link:hover,
+  &__address-link:focus {
+    color: $highlightColor;
+  }
+
+  &__description {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -51,19 +51,19 @@
     margin-bottom: 20px;
   }
 
-&__newsletter {
+  &__newsletter {
     display: flex;
     gap: 12px;
   }
 
-&__newsletter-text {
+  &__newsletter-text {
     background-color: $backgroundColor;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px $boxShadowColor);
     border-radius: 4px;
     color: $whiteColor;
     outline: none;
-  
+
     min-width: 358px;
     padding: 14px 0 14px 15px;
   }
@@ -72,4 +72,4 @@
     line-height: 1.25;
     color: $footerLinkColor;
   }
-  }
+}

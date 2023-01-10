@@ -1,38 +1,38 @@
 // Okno modalne
 .backdrop {
-    background: rgba(0, 0, 0, 0.2);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-  .is-hidden {
-    visibility: hidden;
-    pointer-events: none;
-    opacity: 0;
-  
-    transition-delay: 500ms;
-  }
-  .modal {
-    position: absolute;
-    width: 528px;
-    min-height: 581px;
-    top: 50%;
-    left: 50%;
-    padding: 40px;
-  
-    background: $whiteColor;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-  
-    transform: translate(-50%, -50%) scale(1);
-    transition-property: transform;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-  
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+
+  transition-delay: 500ms;
+}
+.modal {
+  position: absolute;
+  width: 528px;
+  min-height: 581px;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+
+  background: $whiteColor;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0.25);
   }
@@ -71,7 +71,7 @@
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: $supportColor;
-  
+
     display: flex;
     flex-direction: column;
     position: relative;
@@ -89,7 +89,7 @@
   &__form-input:focus {
     border-color: $highlightColor;
     outline: none;
-}
+  }
 
   &__form-svg {
     position: absolute;
@@ -100,7 +100,7 @@
   &__form-item:hover,
   &__form-item:focus-within {
     fill: $highlightColor;
-}
+  }
 
   &__form-comment {
     padding: 12px 16px;
@@ -121,7 +121,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: $supportColor;
-  
+
     position: relative;
   }
 
@@ -136,7 +136,7 @@
     height: 15px;
     border: 2px solid $blackColor;
     border-radius: 2px;
-  
+
     position: absolute;
     top: 50%;
     left: 15px;
@@ -152,8 +152,8 @@
   }
 
   &__form-regulations input[type="checkbox"]:checked + &__form-checkbox-svg {
-  opacity: 1;
-}
+    opacity: 1;
+  }
 
   &__form-regulations-link {
     color: $highlightColor;

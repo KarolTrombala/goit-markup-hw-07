@@ -47,7 +47,7 @@ body {
   align-items: center;
 }
 
-.logo { 
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -681,8 +681,8 @@ body {
 }
 
 .logo--color {
-    color: var(--white-color); 
-  }
+  color: var(--white-color);
+}
 
 .footer__address {
   font-weight: 400;
@@ -698,7 +698,7 @@ body {
   gap: 9px;
 }
 
-.footer__address-link { 
+.footer__address-link {
   color: var(--footer-link-color);
   text-decoration: none;
 
@@ -707,7 +707,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__address-link--underline  {
+.footer__address-link--underline {
   text-decoration: underline;
 }
 
