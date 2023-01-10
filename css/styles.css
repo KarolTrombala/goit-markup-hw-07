@@ -8,17 +8,8 @@
   --background-color: #2f303a;
   --box-shadow-color: rgba(0, 0, 0, 0.15);
   --team-color: #f5f4fa;
-  --header-line: #ececec;
-  --projects-color: #eeeeee;
   --hero-gradient: rgba(47, 48, 58, 0.4);
   --customers-icon: #afb1b8;
-  --social-icons-background: rgba(255, 255, 255, 0.1);
-  --works-background: rgba(47, 48, 58, 0.8);
-  --project-overlay-color: rgba(33, 150, 243, 0.9);
-  --modal-background: rgba(0, 0, 0, 0.2);
-  --email-input-border: rgba(255, 255, 255, 0.3);
-  --modal-form-input-border: rgba(33, 33, 33, 0.2);
-  --modal-form-input-comment: rgba(117, 117, 117, 0.5);
 }
 
 * {
@@ -41,7 +32,7 @@ body {
 
 .header {
   background-color: var(--white-color);
-  border-bottom: 1px solid var(--header-line);
+  border-bottom: 1px solid #ececec;
   padding: 24.54px 0 23.53px;
 }
 
@@ -205,7 +196,7 @@ body {
 /* Modal window */
 
 .backdrop {
-  background: var(--modal-background);
+  background: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
   left: 0;
@@ -285,7 +276,7 @@ body {
 }
 
 .modal__form-input {
-  border: 1px solid var(--modal-form-input-border);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
   padding-left: 41px;
@@ -314,7 +305,7 @@ body {
 }
 
 .modal__form-comment::placeholder {
-  color: var(--modal-form-input-comment);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal__form-checkbox {
@@ -440,7 +431,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
-  background-color: var(--works-background);
+  background-color: rgba(47, 48, 58, 0.8);
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -596,7 +587,7 @@ body {
 
 .project__box {
   background-color: var(--white-color);
-  border: 1px solid var(--projects-color);
+  border: 1px solid #eeeeee;
 
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -617,7 +608,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--project-overlay-color);
+  background-color: rgba(33, 150, 243, 0.9);
 
   display: flex;
   align-items: center;
@@ -721,7 +712,7 @@ body {
 }
 
 .social-icons__link--footer {
-  background-color: var(--social-icons-background);
+  background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white-color);
 
   transition-property: fill, background-color;
@@ -747,7 +738,7 @@ body {
 
 .footer__newsletter-text {
   background-color: var(--background-color);
-  border: 1px solid var(--email-input-border);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px var(--box-shadow-color));
   border-radius: 4px;
   color: var(--white-color);
