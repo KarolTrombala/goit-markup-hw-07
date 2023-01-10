@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serfif;
+    color: $mainColor;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .section {
+    padding: 94px 0;
+    margin: 0 auto;
+  }
+
+  .list {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+  }
