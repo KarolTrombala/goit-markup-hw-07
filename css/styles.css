@@ -745,7 +745,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-social-link {
+.social-icons__link--footer {
   background-color: var(--social-icons-background);
   fill: var(--white-color);
 
@@ -754,7 +754,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sign-up-title {
+.sign-up__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -770,7 +770,7 @@ body {
   gap: 12px;
 }
 
-.sign-up-text {
+.sign-up__text {
   background-color: var(--background-color);
   border: 1px solid var(--email-input-border);
   filter: drop-shadow(0px 4px 4px var(--box-shadow-color));
@@ -782,7 +782,7 @@ body {
   padding: 14px 0 14px 15px;
 }
 
-.sign-up-text::placeholder {
+.sign-up__text::placeholder {
   line-height: 1.25;
   color: var(--footer-link-color);
 }
