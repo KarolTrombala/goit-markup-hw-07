@@ -1,13 +1,12 @@
 // Czym się zajmujemy
 .works__item {
   position: relative;
-}
 
-.works__item > img {
+& > img {
   display: block;
 }
 
-.works__description {
+&__description {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -20,4 +19,5 @@
   width: 100%;
   bottom: 0;
   padding: 27px;
+}
 }
