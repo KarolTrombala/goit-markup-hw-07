@@ -171,7 +171,28 @@ body {
   margin: 0 auto;
 }
 
-.button {
+.hero__button {
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px var(--box-shadow-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+  border-style: none;
+
+  padding: 10px 41px;
+  margin: 0 auto;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+/* .button {
   background-color: var(--highlight-color);
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
@@ -191,7 +212,7 @@ body {
 .button--hero {
   padding: 10px 41px;
   margin: 0 auto;
-}
+} */
 
 /* Modal window */
 
@@ -359,11 +380,32 @@ body {
   color: var(--highlight-color);
 }
 
-.button--modal {
+.modal__button {
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px var(--box-shadow-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+  border-style: none;
+
   padding: 10px 76px;
   margin: 20px auto 0;
   display: block;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* .button--modal {
+  padding: 10px 76px;
+  margin: 20px auto 0;
+  display: block;
+} */
 
 /* Nasze atuty, Czym się zajmujemy i Nasz zespół  */
 
@@ -554,7 +596,37 @@ body {
   margin-bottom: 50px;
 }
 
-.button--filter {
+.filter__button {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+  background-color: var(--team-color);
+  cursor: pointer;
+  border-style: none;
+
+  padding: 6px 22px;
+  margin-right: 8px;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.filter__button:hover,
+.filter__button:focus {
+  background-color: var(--highlight-color);
+  color: var(--white-color);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+}
+
+/* .button--filter {
   box-shadow: none;
   font-weight: 500;
   line-height: 1.62;
@@ -566,9 +638,9 @@ body {
 
   padding: 6px 22px;
   margin-right: 8px;
-}
+} */
 
-.button--filter:hover,
+/* .button--filter:hover,
 .button--filter:focus {
   background-color: var(--highlight-color);
   color: var(--white-color);
@@ -576,7 +648,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
+} */
 
 /* Portfolio projects */
 
@@ -758,10 +830,34 @@ body {
   color: var(--footer-link-color);
 }
 
-.button--footer {
+.footer__button {
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px var(--box-shadow-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+  border-style: none;
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
   padding: 10px 28px 10px 42px;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
+/* .button--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 28px 10px 42px;
+} */

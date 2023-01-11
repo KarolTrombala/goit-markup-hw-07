@@ -72,4 +72,13 @@
     line-height: 1.25;
     color: $footerLinkColor;
   }
+
+  &__button {
+    @extend %button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 28px 10px 42px;
+  }
 }

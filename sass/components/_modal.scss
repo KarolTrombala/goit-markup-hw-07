@@ -158,4 +158,11 @@
   &__form-regulations-link {
     color: $highlightColor;
   }
+
+  &__button {
+    @extend %button;
+    padding: 10px 76px;
+    margin: 20px auto 0;
+    display: block;
+  }
 }
