@@ -8,11 +8,11 @@
   letter-spacing: 0.03em;
   color: $blackColor;
 
-  &--highlight {
+  &__highlight {
     color: $highlightColor;
   }
 
-  &--color {
+  &__color {
     color: $whiteColor;
   }
 }

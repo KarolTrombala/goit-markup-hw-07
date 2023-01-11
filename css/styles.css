@@ -57,7 +57,7 @@ body {
   color: var(--black-color);
 }
 
-.logo--highlight {
+.logo__highlight {
   color: var(--highlight-color);
 }
 
@@ -680,7 +680,7 @@ body {
   padding: 60px 15px;
 }
 
-.logo--color {
+.logo__color {
   color: var(--white-color);
 }
 
